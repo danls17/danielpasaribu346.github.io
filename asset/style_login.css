@@ -1,0 +1,112 @@
+*
+{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+
+body
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 650px;
+	background: #5DADE2;
+}
+
+.contaner
+{
+	position: relative;
+	width: 800px;
+	height: 500px;
+	margin: 20px;
+}
+
+.background
+{
+	position: relative;
+	top: 40px;
+	height: 400px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: #2E86C1;
+}
+.formbox
+{
+	position: absolute;
+	top: 150px;
+	left: 350px;
+	width: 50%;
+	height: 50%;
+	background: #fff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	box-shadow: 0 5px 45px rgba(0,0,0,25);
+	transition: 0.5s;
+	border-radius: 20px;
+}
+.formbox .form
+{
+	position: absolute;
+	width: 100%;
+	left: 0;
+	padding: 50px;
+	transition: 0.5s;
+}
+.formbox .form form
+{
+	 width: 100%;
+	 display: flex;
+	 flex-direction: column;
+	 padding: 5px 0 10px 0;
+}
+.formbox .form form h3
+{
+	margin-bottom: 20px;
+	font-size: 20px;
+	color: #333;
+	font-weight: 500;
+	width: 70px;
+}
+.formbox .form h3
+{
+	border-bottom: 3px solid #333;
+	display: inline-block;
+	padding-top: 50px;
+}
+.formbox .form form input
+{
+	position: relative;
+	width: 100%;
+	margin-bottom: 10px;
+	padding: 10px;
+	outline: none;
+	font-size: 16px;
+	border: 1px solid #333;
+}
+.formbox .form form input[type="submit"]
+	{
+		background: #5DADE2;
+		padding: 10px 20px;
+		margin-right: 5px;
+		margin-bottom: 10px; 
+		font-weight: 500px;
+		text-decoration: none;
+		max-width: 150px;
+		border: none;
+		color: #333;
+		cursor: pointer;
+		transition: 1s;
+		text-transform: uppercase;
+	}
+.formbox .form form input[type="submit"]:hover
+{
+	letter-spacing: 4px;
+	background: #2874A6;
+	color: #fff;
+	transition: 1s;
+	max-width: 160px;	
+}
